@@ -43,7 +43,7 @@ public class ProducerService
 
     public void sendCycles() {
         //test cycles of different message amounts
-        List<Integer> cycles = new ArrayList<>(List.of(1, 10, 100, 1_000, 10_000));
+        List<Integer> cycles = new ArrayList<>(List.of(1, 10, 100, 1_000, 10_000, 100_000));
 
         //Run every cycle 10 times
         for (int cycle : cycles) {
